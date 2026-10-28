@@ -1,0 +1,30 @@
+{
+  "name": "alu-logo-blockchain-registry",
+  "version": "1.0.0",
+  "description": "Register and tokenise the official ALU logo on a local Ethereum blockchain using Hardhat.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "hash": "node scripts/hash-logo.js",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "nft",
+    "erc721",
+    "erc20",
+    "alu"
+  ],
+  "author": "ALU Blockchain and Applications",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.18"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  }
+}

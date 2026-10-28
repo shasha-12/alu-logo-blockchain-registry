@@ -1,0 +1,14 @@
+node_modules/
+cache/
+artifacts/
+coverage/
+coverage.json
+typechain/
+typechain-assets/
+.env
+.env.*
+.DS_Store
+.venv/
+*.log
+docs/screenshots/pdf-preview/
+docs/screenshots/*.txt
